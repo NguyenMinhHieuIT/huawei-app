@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+import Nav from './component/Hieu/Nav';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <>
+    <Nav />
+  </>
   );
 }
 
