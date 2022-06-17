@@ -12,7 +12,7 @@ function Nav() {
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
+                            <li class="nav-item " style={{ marginLeft: '30px' }}>
                                 <a class="nav-link active" aria-current="page" href="#"><b>Điện thoại</b></a>
                             </li>
                             <li class="nav-item">
@@ -23,10 +23,7 @@ function Nav() {
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true"><b>Thiết bị đeo</b></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true"><b>Tai nghe và loa</b></a>
-                            </li>
+                            </li>                       
                             <li class="nav-item">
                                 <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true"><b>Màn hình</b></a>
                             </li>
@@ -45,18 +42,27 @@ function Nav() {
                             <li class="nav-item">
                                 <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true"><b>Nhà bán lẻ</b></a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true"><b><i class="fa-solid fa-magnifying-glass mt-2" style={{ marginLeft:'50px' }}></i></b></a>
+                            <li class="nav-item " style={{ marginLeft: '180px' }}>
+                                <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true"><b><i class="fa-solid fa-magnifying-glass mt-2" ></i></b></a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true"><b><i class="fa-solid fa-user mt-2" style={{ marginLeft:'50px' }}></i></b></a>
-                            </li>                          
+                            <li class="nav-item " style={{ marginLeft: '10px' }}>
+                                <div class="dropdown dropstart">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                         <b><i class="fa-solid fa-user mt-2" type="button" style={{}} ></i></b>
+                                    </button>
+                                    <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="#"><b>Đăng nhập</b></a></li>
+                                        <li><a class="dropdown-item" href="#"><b>Đăng kí</b></a></li>
+        
+                                    </ul>
+                                </div>
+                            </li>
                         </ul>
 
 
-                    
-                            
-                      
+
+
+
 
 
                     </div>
