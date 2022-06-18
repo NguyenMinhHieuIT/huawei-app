@@ -1,10 +1,12 @@
-import Nav from './component/Hieu/Nav';
+import Phone_main from './component/Hieu/Phone_main';
+import Product from './component/Hieu/Product';
 import './App.css';
 
 function App() {
   return (
     <>
-    <Nav />
+    <Phone_main />
+  {/* <Product/> */}
   </>
   );
 }
