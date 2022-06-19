@@ -1,5 +1,7 @@
 import demo_phone from "../../img/product_demo.png";
 import p40_silver from "../../img/p40-pro-silver.png";
+import p40_silver_p from "../../img/p40-pro-plus-white.png";
+import {product} from '../../Data_phone_main'
 
 function Product() {
     return (
@@ -14,37 +16,22 @@ function Product() {
                 <h1 class="pt-5 text-center"><b>Thiết kế phong cách, cách mạng nhiếp ảnh</b></h1>
                 <h4 class="pb-5 text-center">Dòng sản phẩm P</h4>
                 {/* Bo 3 dien thoai */}
-                <div class="row d-flex justify-content-around pb-5">
-                    <div class="card col col-12 col-sm-4" style={{ width: '400px', borderRadius: '15px', textAlign: 'center' }}>
-                        <img src={p40_silver} class="card-img-top" alt="..." />
-                        <div class="card-body">
-                            <h5 class="card-title">HUAWEI P40 Pro</h5>
-                            <p class="card-text">Bộ 4 Camera Leica Siêu Tầm Nhìn <br /> Cảm biến 1/1.28 inch<br />Kirin 990 5G<br />Màn hình 90 Hz, IP68</p>
-                            <a href="#" class="btn btn-primary">KHÁM PHÁ</a>
-                            <a href="#" class="btn btn-primary">MUA NGAY</a>
+            <div class="row d-flex justify-content-around pb-5">
+                {product.map((course , index) => {
+                    return(
+                        <div class="card col col-12 col-sm-4 pt-5 pb-5" style={{ width: '400px', borderRadius: '15px', textAlign: 'center' }} key={index}>
+                            <img src={course.imgUrl} class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <h5 class="card-title">{course.name} </h5>
+                                <p class="card-text">{course.mieuTa}</p>
+                                <a href="#" class="btn btn-dark">KHÁM PHÁ</a>
+                                <a href="#" class="btn btn-dark ms-2">MUA NGAY</a>
+                            </div>
                         </div>
-                    </div>
-
-                    <div class="card col col-12 col-sm-4" style={{ width: '400px', borderRadius: '15px', textAlign: 'center' }}>
-                        <img src={p40_silver} class="card-img-top" alt="..." />
-                        <div class="card-body">
-                            <h5 class="card-title">HUAWEI P40 Pro</h5>
-                            <p class="card-text">Bộ 4 Camera Leica Siêu Tầm Nhìn <br /> Cảm biến 1/1.28 inch<br />Kirin 990 5G<br />Màn hình 90 Hz, IP68</p>
-                            <a href="#" class="btn btn-primary">KHÁM PHÁ</a>
-                            <a href="#" class="btn btn-primary">MUA NGAY</a>
-                        </div>
-                    </div>
-
-                    <div class="card col col-12 col-sm-4" style={{ width: '400px', borderRadius: '15px', textAlign: 'center' }}>
-                        <img src={p40_silver} class="card-img-top" alt="..." />
-                        <div class="card-body">
-                            <h5 class="card-title">HUAWEI P40 Pro</h5>
-                            <p class="card-text">Bộ 4 Camera Leica Siêu Tầm Nhìn <br /> Cảm biến 1/1.28 inch<br />Kirin 990 5G<br />Màn hình 90 Hz, IP68</p>
-                            <a href="#" class="btn btn-primary">KHÁM PHÁ</a>
-                            <a href="#" class="btn btn-primary">MUA NGAY</a>
-                        </div>
-                    </div>
-                </div>
+                    )
+                })}
+            </div>
+               
                 {/* Next */}
                 <h1 class="pt-5 pb-5 text-center"><b>Thưởng thức nhiều hơn cùng nhau</b></h1>
 
