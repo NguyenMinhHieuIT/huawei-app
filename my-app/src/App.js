@@ -1,11 +1,14 @@
-import Phone_main from './component/Hieu/Phone_main';
-import Product from './component/Hieu/Product';
+import Nmain from './component/Nhan/Nmain';
+import Product_nhan from './component/Nhan/Product_nhan';
+import Footer from '../src/component/Hieu/Footer';
 import './App.css';
 
 function App() {
   return (
     <>
-    <Phone_main />
+    <Nmain />
+    <Product_nhan/>
+    <Footer/>
   {/* <Product/> */}
   </>
   );
