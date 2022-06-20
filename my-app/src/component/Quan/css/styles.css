@@ -1,6 +1,59 @@
+/*Slider*/
 
-.sliders {
+.carousel-caption {
+    position: relative;
+    text-align: center;
+    padding-right: 30%;
 
-    background: linear-gradient(rgba(9, 32, 50, 0.234)), url(../../../img/huawei-watch-gt-3-pro-ceramic-key-vision.jpg);
+}
 
+
+
+.conten1 button {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 25px;
+    background-color: black;
+    border: 0 ;
+
+}
+
+.conten1 .text {
+    color: aliceblue;
+}
+
+.conten1 button:hover {
+    background-color: rgba(1, 1, 1, 0.52);
+    color: rgba(1, 1, 1, 0.52);
+    transition: 0.5s;
+}
+
+
+.conten2 button {
+    background-color: rgba(82, 82, 88, 0.911);
+    border-radius: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    margin-bottom: 12px;
+    border: 0 ;
+}
+
+.conten2 button:hover {
+    background-color: black
+}
+
+.conten3 button {
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.conten3 button:hover {
+    background-color: rgba(0, 0, 0, 0.555);
+    transition: 0.5s;
+    border: 0 ;
 }
