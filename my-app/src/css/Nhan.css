@@ -1,0 +1,29 @@
+.img{
+   /* You must set a specified height */
+  /* Center the image */
+  /* Do not repeat the image */
+  background-image: url("../img/banner.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px;/* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;  
+}
+
+.btn-thm:hover{
+    background-color: red;
+}
+.img1 {
+   
+        /* You must set a specified height */
+       /* Center the image */
+       /* Do not repeat the image */
+       background-image: url("../img/anh3.png"); /* The image used */
+       background-color: #cccccc; /* Used if the image is unavailable */
+       height: 374.8px; /* You must set a specified height */
+       background-position: center; /* Center the image */
+       background-repeat: no-repeat; /* Do not repeat the image */
+       background-size: cover;  
+     
+}
+
