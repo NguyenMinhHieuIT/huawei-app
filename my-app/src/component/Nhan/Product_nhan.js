@@ -64,15 +64,15 @@ function Product_nhan() {
                 </div>
             </div>
 
-            <div class=" container mt-5" style={{ textAlign: "center" }} >
+            <div class=" container-sm mt-5"  style={{ textAlign: "center" }} >
 
-                <h4>
+                <h4 class="mt-5" style={{textAlign:"center", maxWidth:"100%",fontSize:"1.9em",lineHeight:"1.95em",fontWeight:"800" }}>
                     <b> Nghiên cứu và Phát triển </b>
                 </h4>
-                <p>             Huawei vẫn tập trung sít sao vào chiến lược đường ống ICT của mình. Để xây dựng một Thế giới được Kết nối Tốt hơn, chúng tôi tiếp tục đầu tư vào các công nghệ then chốt, các năng lực kỹ thuật cơ bản, cấu trúc mạng, các tiêu chuẩn kỹ thuật và phát triển sản phẩm. </p>
+                <p style={{textAlign:"center", maxWidth:"750%",fontSize:"1em",lineHeight:"1.5em", color:"#333333",marginTop:"22px", marginBottom:"30px"}}>             Huawei vẫn tập trung sít sao vào chiến lược đường ống ICT của mình. Để xây dựng một Thế giới được Kết nối Tốt hơn, chúng tôi tiếp tục đầu tư vào các công nghệ then chốt, các năng lực kỹ thuật cơ bản, cấu trúc mạng, các tiêu chuẩn kỹ thuật và phát triển sản phẩm. </p>
                 <a href=" " style={{ color: '#666' }}>Tìm hiểu thêm </a>
 
-                <h5>
+                <h5 style={{textAlign:"center", maxWidth:"100%",fontSize:"1.9em",lineHeight:"1.5em",fontWeight:"800" }}> 
                     <b> Cởi mở, Hợp tác, và chía sẻ Thành công </b>
                 </h5>
                 <a href=" " style={{ color: '#666' }}>Tìm hiểu thêm </a>
