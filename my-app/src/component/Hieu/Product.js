@@ -1,7 +1,7 @@
 import demo_phone from "../../img/product_demo.png";
 import p40_silver from "../../img/p40-pro-silver.png";
 import p40_silver_p from "../../img/p40-pro-plus-white.png";
-import {product} from '../../Data_phone_main'
+import {product , more} from '../../Data_phone_main'
 
 function Product() {
     return (
@@ -36,7 +36,26 @@ function Product() {
                 <h1 class="pt-5 pb-5 text-center"><b>Thưởng thức nhiều hơn cùng nhau</b></h1>
 
                 <div class="row d-flex justify-content-around pb-5">
-                    <div class="card mb-3 col-12 col-sm-6" style={{maxWidth:'700px', borderRadius: '15px'}}>
+                {more.map((course , index) => {
+                    return(
+                    <div class="card mb-3 col-12 col-sm-6" style={{maxWidth:'700px', borderRadius: '15px'}} key={index} >
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src={course.imgUrl} class="img-fluid rounded-start" alt="..."/>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">{course.name}</h5>
+                                    <p class="card-text">{course.mieuta}</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <a href="https://www.facebook.com/thutrang.phi.35" class="btn btn-dark">KHÁM PHÁ</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    )
+                })}
+                    {/* <div class="card mb-3 col-12 col-sm-6" style={{maxWidth:'700px', borderRadius: '15px'}}>
                         <div class="row g-0">
                             <div class="col-md-4">
                                 <img src="..." class="img-fluid rounded-start" alt="..."/>
@@ -94,7 +113,7 @@ function Product() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </>

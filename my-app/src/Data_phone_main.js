@@ -16,3 +16,11 @@ export const product = [
         imgUrl: require('./img/p40-pro-silver.png')
     },
 ]
+
+
+export const more = [
+    {name:'HUAWEI Petal Search' , mieuta:'Truy cập trải nghiệm tìm kiếm toàn diện và độc đáo.',imgUrl: require('./img/petal-search-web.png')},
+    {name:'HUAWEI Clone' , mieuta:'Dễ dàng chuyển dữ liệu sang điện thoại HUAWEI.' ,imgUrl: require('./img/clone-web.png')},
+    {name:'HUAWEI HUAWEI AppGallery' , mieuta:'Tận hưởng ứng dụng độc quyền, chương trình tại địa phương và các ưu đãi đặc biệt.' , imgUrl: require('./img/appgallery-web.png')},
+    {name:'HUAWEI MateBook' , mieuta:'Tận hưởng sự kết hợp hoàn hảo giữa điện thoại HUAWEI và máy tính xách tay của bạn.',imgUrl: require('./img/matebook-web.png')},
+]
