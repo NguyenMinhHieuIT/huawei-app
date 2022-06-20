@@ -3,10 +3,10 @@ function Footer() {
   return (
     <div class="container-fluid" >
 
-    <div class="container-fluid row" style={{padding:'100px 20px'}}>
-        <div class="col col-6 col-sm-3 ">
+    <div className="container-fluid row" style={{padding:'100px 20px'}}>
+        <div className="col col-6 col-sm-3 ">
             <h5><b>SẢN PHẨM</b></h5>
-            <ul class="mt-5" style={{listStyleType:'none'}}>
+            <ul className="mt-5" style={{listStyleType:'none'}}>
                 <li><a>Điện thoại</a></li>
                 <li><a>Máy tính sách tay</a></li>
                 <li><a>Máy tính bảng</a></li>
@@ -18,9 +18,9 @@ function Footer() {
             </ul>
         </div>
 
-        <div class="col col-6 col-sm-3  ">
+        <div className="col col-6 col-sm-3  ">
             <h5><b>DỊCH VỤ DI ĐỘNG</b></h5>
-            <ul class="mt-5" style={{listStyleType:'none'}}>
+            <ul className="mt-5" style={{listStyleType:'none'}}>
                 <li><a>AppGallery</a></li>
                 <li><a>HUAWEI Themes</a></li>
                 <li><a>HUAWEI ID</a></li>
@@ -33,9 +33,9 @@ function Footer() {
             </ul>
         </div>
 
-        <div class="col col-6 col-sm-3">
+        <div className="col col-6 col-sm-3">
             <h5><b>HỖ TRỢ </b></h5>
-            <ul class="mt-5" style={{listStyleType:'none'}}>
+            <ul className="mt-5" style={{listStyleType:'none'}}>
                 <li><a>Trung tâm bảo hành</a></li>
                 <li><a>Tra cứu bảo hành</a></li>
                 <li><a>Chính sách bảo hành</a></li>
@@ -45,9 +45,9 @@ function Footer() {
             </ul>
         </div>
 
-        <div class="col col-6 col-sm-3">
+        <div className="col col-6 col-sm-3">
             <h5><b>VỀ HUAWEI</b></h5>
-            <ul class="mt-5" style={{listStyleType:'none'}}>
+            <ul className="mt-5" style={{listStyleType:'none'}}>
                 <li><a>Về chúng tôi</a></li>
                 <li><a>Tin tức và sự kiện</a></li>
                 <li><a>Doanh nghiệp HUAWEI</a></li>
@@ -59,12 +59,12 @@ function Footer() {
         </div>
     </div>
     <hr/>
-    <div class="container" style={{paddingBottom:'100px'}}>
+    <div className="container" style={{paddingBottom:'100px'}}>
          <h5><b>THEO DÕI</b></h5> <br/>
-         <i class="fa-brands fa-facebook fs-1"></i>
-         <i class="fa-brands fa-youtube-square fs-1 ms-5"></i>
-         <i class="fa-brands fa-instagram-square fs-1 ms-5"></i>
-         <i class="fa-brands fa-tiktok fs-1 ms-5"></i>
+         <i className="fa-brands fa-facebook fs-1"></i>
+         <i className="fa-brands fa-youtube-square fs-1 ms-5"></i>
+         <i className="fa-brands fa-instagram-square fs-1 ms-5"></i>
+         <i className="fa-brands fa-tiktok fs-1 ms-5"></i>
     </div>
    
     </div>
