@@ -1,12 +1,18 @@
 /*Slider*/
-
+:root{
+    --clr:#afaeae;
+}
 .carousel-caption {
     position: relative;
     text-align: center;
     padding-right: 30%;
 
 }
-
+.carousel-inner {
+    
+    background-color: var(--clr);
+    border-radius: 50px;
+}
 
 
 .conten1 button {
@@ -56,4 +62,65 @@
     background-color: rgba(0, 0, 0, 0.555);
     transition: 0.5s;
     border: 0 ;
+}
+
+.card{
+    margin-left: 10px;
+   margin-top: 50px;
+   border-radius: 50px;
+   
+   
+}
+
+.row{
+    padding: 15px;
+}
+
+.col-md-8{
+    background-color: var(--clr);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.card-body{
+    text-align: center;
+    padding-top: 10%;
+}
+
+.bott {
+    padding: 20px;
+    
+    
+}
+
+.bott .but1{
+    margin-right: 40px;
+    background-color: black;
+    color:white;
+    border-radius: 30px;
+    border: 2px solid white;
+}
+.bott .but2{
+    margin-left: 40px;
+    border-radius: 30px;
+    
+    
+}
+
+.bott .but1:hover{
+    background-color: var(--clr);
+    color: black;
+    transition: 0.5s;
+    border-color: white;
+}
+
+.bott .but2:hover{
+    background-color: var(--clr);
+    transition: 0.5s;
+}
+
+.bott button .text1,
+.bott button .text2{
+    padding: 10px;
+    
 }

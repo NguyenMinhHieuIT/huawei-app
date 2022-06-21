@@ -6,14 +6,18 @@ import Nav from "./component/Hieu/Nav";
 import Product from "./component/Hieu/Product";
 import "./App.css";
 import Slider from "./component/Quan/Slider";
-
+import Card from "./component/Quan/Card";
+import Main from "../src/component/Quan/Main"
 function App_hieu() {
   return (
     <>
       <Nav />
       {/* <Product/> */}
       <Slider/>
+      <Card/>
+      {/* <Card/> */}
       <Footer />
+      {/* <Card/> */}
     </>
   );
 }
