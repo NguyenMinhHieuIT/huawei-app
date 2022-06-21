@@ -1,11 +1,18 @@
-import Phone_main from "./component/Hieu/Phone_main";
+
 import Product from "./component/Hieu/Product";
 import "./App.css";
 import Main from "./component/Quan/Main";
+import Dangnhap from "./component/Nhan/Dangnhap";
+import Nav from "./component/Hieu/Nav";
+import Footer from "./component/Hieu/Footer";
+import Dangki from "./component/Nhan/Dangki";
 function App() {
   return (
     <>
-      <Main />
+<Nav/>
+    <Dangki/>
+     <Footer/>
+      {/* <Main /> */}  
       {/* <Phone_main /> */}
       {/* <Product/> */}
     </>
