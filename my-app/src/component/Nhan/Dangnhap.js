@@ -25,8 +25,10 @@ function Dangnhap() {
                 <input class="form-check-input" type="checkbox" name="remember" /> Remember me
               </label>
             </div>
-            <button type="submit" class="btn btn-danger mb-5" style={{ width: '100%' }}>Submit</button>
-          </form> </div>
+            <button type="submit" class="btn btn-danger mb-3" style={{ width: '100%' }}>Submit</button>
+          </form> <a href="dk" style={{ textDecoration:'underline' }} >Đăng kí</a> </div>
+
+         
       </div>
 
 

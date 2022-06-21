@@ -1,6 +1,6 @@
 import anh4 from "../../img/anh4.png"
 import '../../css/style.css'
-function Dangnhap() {
+function Dangki() {
     return (
         <>
 
@@ -9,7 +9,7 @@ function Dangnhap() {
             </div>
             <div className="text-container" style={{ position: 'relative', textAlign: 'center', lineHeight: '1.3', fontSize: '15px', fontFamily: 'Helvetica Neue,Helvetica,Arial,sans-serif,Microsoft Yahei', color: '#191919', }} >
                 <span>Bạn đã có tài khoản?</span>
-                <a href="url"> Đăng nhập  </a>
+                <a href="/dn"> Đăng nhập  </a>
             </div>
             <div className=" container-sm d-flex justify-content-center">
                 <div className="card mt-5 " style={{ width: '25rem' }} >
@@ -95,4 +95,4 @@ function Dangnhap() {
         </>
     )
 }
-export default Dangnhap;
+export default Dangki;
