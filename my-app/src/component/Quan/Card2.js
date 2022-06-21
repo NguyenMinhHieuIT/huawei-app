@@ -1,15 +1,12 @@
 import React from 'react'
-import IMG1 from '../../img/matebook-web.png'
-import mb14 from '../../img/MateB14.jpg'
+import MP from '../../img/matepad-2022.png'
 export default function Card() {
   
       return (
   
         <div className="card mb-3" style={{maxWidth: '100%'}} >
           <div className="row g-0">
-            <div className="col-md-6">
-              <img src={IMG1} className="img-fluid rounded-start" alt="MateBook 14" />
-            </div>
+            
             <div className="col-md-6">
               <div className="card-body">
                 <h2 className="card-title"><b>HUAWEI MateBook 14 2021</b></h2>
@@ -27,6 +24,10 @@ export default function Card() {
                   
                 </div>
               </div>
+            </div>
+
+            <div className="col-md-6">
+              <img src={MP} className="img-fluid rounded-start" alt="MateBook 14" />
             </div>
           </div>
         </div>

@@ -64,6 +64,8 @@
     border: 0 ;
 }
 
+
+/*Card1*/
 .card{
     margin-left: 10px;
    margin-top: 50px;
@@ -76,15 +78,15 @@
     padding: 15px;
 }
 
-.col-md-8{
+.col-md-6{
     background-color: var(--clr);
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-radius: 50px;
+    
 }
 
 .card-body{
     text-align: center;
-    padding-top: 10%;
+    padding-top: 25%;
 }
 
 .bott {
@@ -123,4 +125,25 @@
 .bott button .text2{
     padding: 10px;
     
+}
+
+/*TextConten*/
+.TextCont{
+    margin-top: 50px;
+    padding-left: 30px;
+}
+
+.TextCont .Tex1{
+    font-size: 80px; 
+}
+
+.TextCont .Tex2 {
+font-size: 30px;
+}
+
+/* Card3*/
+
+.col-md-8 img {
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
 }

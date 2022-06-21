@@ -8,15 +8,18 @@ import "./App.css";
 import Slider from "./component/Quan/Slider";
 import Card from "./component/Quan/Card";
 import Main from "../src/component/Quan/Main"
+import Card2 from "./component/Quan/Card2";
 function App_hieu() {
   return (
     <>
-      <Nav />
+      <Main/>
+      {/* <Nav /> */}
       {/* <Product/> */}
-      <Slider/>
-      <Card/>
+      {/* <Slider/> */}
       {/* <Card/> */}
-      <Footer />
+      {/* <Card2/> */}
+      {/* <Card/> */}
+      {/* <Footer /> */}
       {/* <Card/> */}
     </>
   );
