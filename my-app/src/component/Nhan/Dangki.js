@@ -12,7 +12,7 @@ function Dangki() {
                 <a href="/dn"> Đăng nhập  </a>
             </div>
             <div className=" container-sm d-flex justify-content-center">
-                <div className="card mt-5 " style={{ width: '25rem' }} >
+                <div className="card mt-5 " style={{ width: '25rem'  , borderRadius:'10px' }} >
                     <form className="container-sm " action="/action_page.php">
                         <div style={{ background: 'rgba(0,0,0,.05)' }}>
                             <select name="QuocGia" id="Khuvuc" style={{width:'100%',background: 'rgba(0,0,0,.05)'}}>

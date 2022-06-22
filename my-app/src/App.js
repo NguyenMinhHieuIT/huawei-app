@@ -1,4 +1,3 @@
-
 import Product from "./component/Hieu/Product";
 import "./App.css";
 import Main from "./component/Quan/Main";
@@ -9,13 +8,11 @@ import Dangki from "./component/Nhan/Dangki";
 function App() {
   return (
     <>
-<Nav/>
+      <Nav/>
     <Dangki/>
      <Footer/>
       {/* <Main /> */}  
-      {/* <Phone_main /> */}
-      {/* <Product/> */}
-    </>
+</>
   );
 }
 

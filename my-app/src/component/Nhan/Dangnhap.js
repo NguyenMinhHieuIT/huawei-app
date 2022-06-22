@@ -9,7 +9,7 @@ function Dangnhap() {
       </div>
       <div className=" container-sm d-flex justify-content-evenly mt-5">
         <img src={anh5} style={{width: '15rem', height:'15rem'}}/>
-        <div className="card" style={{ width: '25rem' }} >
+        <div className="card" style={{ width: '25rem' , borderRadius:'10px' }} >
           <form className="container-sm " action="/action_page.php">
             <div class="mb-3 mt-3">
               <label for="email" class="form-label">Email:</label>
