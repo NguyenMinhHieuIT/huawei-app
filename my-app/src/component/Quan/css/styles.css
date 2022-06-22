@@ -223,4 +223,37 @@
     transition: 0.5s;
 }
 
+.container-lh{
+    padding: 50px;
+    
+}
 
+.container-lh .data{
+   text-align: center;
+}
+
+.TopText b {
+    font-size: 40px;
+}
+
+.TexLH{
+    font-size: 20px
+}
+
+.Information .in4-1 ,
+.Information .in4-2,
+.Information .in4-3{
+    padding-top: 30px;
+    
+}
+
+.Information a{
+    text-decoration: none;
+    color: var(--clr);
+    
+}
+
+.Information a:hover{
+    color: black;
+    transition: 0.5s;
+}

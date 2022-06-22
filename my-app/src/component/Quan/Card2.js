@@ -1,6 +1,6 @@
 import React from 'react'
 import MP from '../../img/matepad-2022.png'
-export default function Card() {
+export default function Card2() {
   
       return (
   

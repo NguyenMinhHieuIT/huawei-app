@@ -1,6 +1,6 @@
 import React from 'react';
 import Tl from '../../img/tablets-bg.png';
-export default function Card() {
+export default function Card4() {
   
       return (
   
