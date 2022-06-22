@@ -1,11 +1,10 @@
 import React from 'react'
-import M1 from '../../img/M1.png';
-import M2 from '../../img/M2.png';
-import M14 from '../../img/M14.png';
-import D14 from '../../img/d14.png';
-import MV from '../../img/MV.png';
-import d15 from '../../img/d15.png'
-export default function CardList() {
+import M1 from '../../img/cl2/1.png';
+import M14 from '../../img/cl2/2.png';
+import D14 from '../../img/cl2/3.png';
+import MV from '../../img/cl2/4.png';
+import d15 from '../../img/cl2/5.png'
+export default function CardList2() {
     return (
     <>
         <div className='container'>
@@ -14,8 +13,9 @@ export default function CardList() {
                     <div className="card" style={{width: '48rem'}}>
                        
                         <div className="card-body">
-                            <h2 className="card-title">HUAWEI MateBook 14s</h2>
-                            {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
+                            <h2 className="card-title">HUAWEI MatePad 11</h2>
+                            <p className="card-text">Màn Hình HUAWEI FullView 120 Hz
+HUAWEI M-Pencil</p>
                             <a href="#" className="btn btn-primary">Khám Phá </a>
                         </div>
                         <img src={M1} className="card-img-top" alt="M1" />
@@ -28,8 +28,10 @@ export default function CardList() {
                     <div className="card" style={{width: '20rem'}}>
                         <img src={M14} className="card-img-top" alt="..." />
                             <div className="card-body">
-                        <h5 className="card-title">HUAWEI MateBook 14 2021</h5>
-                        <p className="card-text">Bộ Vi Xử Lý Intel® Core™ i5-1135G7 thế hệ thứ 11</p>
+                        <h5 className="card-title">HUAWEI MatePad</h5>
+                        <p className="card-text">Bút cảm ứng HUAWEI M-Pencil
+Cộng tác đa màn hình
+Màn hình 2K HUAWEI FullView</p>
         <a href="#" className="btn1 btn-light">Khám Phá</a>
         <a href="#" className="btn2 btn-light">Mua Ngay</a>
         </div>
@@ -39,8 +41,10 @@ export default function CardList() {
                     <div className="card" style={{width: '20rem'}}>
                         <img src={d15} className="card-img-top" alt="..." />
                             <div className="card-body">
-                        <h5 className="card-title">HUAWEI MateBook D 15 2021</h5>
-                        <p className="card-text">Bộ xử lý Intel® Core™ thế hệ thứ 11</p>
+                        <h5 className="card-title">HUAWEI MatePad T 10</h5>
+                        <p className="card-text">Màn Hình HD 9,7 Inch
+Hiệu Suất Mượt Mà
+Chế Độ Bảo Vệ Mắt</p>
                         <a href="#" className="btn1 btn-light">Khám Phá</a>
         <a href="#" className="btn2 btn-light">Mua Ngay</a>
         </div>
@@ -54,8 +58,10 @@ export default function CardList() {
                     <div className="card" style={{width: '20rem'}}>
                         <img src={MV} className="card-img-top" alt="..." />
                             <div className="card-body">
-                        <h5 className="card-title">HUAWEI MateView</h5>
-                        <p className="card-text">Màn Hình 4K+ Trung Thực Trình Chiếu Không Dây HUAWEI Smart Bar</p>
+                        <h5 className="card-title">HUAWEI MatePad New</h5>
+                        <p className="card-text">Màn Hình 2K FullView
+Dung Lượng Pin 7.250mAh
+RAM 4GB + ROM 128GB</p>
                         <a href="#" className="btn1 btn-light">Khám Phá</a>
         <a href="#" className="btn2 btn-light">Mua Ngay</a>       
         </div>
@@ -65,8 +71,10 @@ export default function CardList() {
                     <div className="card" style={{width: '20rem'}}>
                         <img src={D14} className="card-img-top" alt="..." />
                             <div className="card-body">
-                        <h5 className="card-title">HUAWEI MateBook D 14 2020</h5>
-                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 className="card-title">HUAWEI MatePad T 10s</h5>
+                        <p className="card-text">Màn hình Full HD
+Chế độ bảo vệ mắt
+Tinh chỉnh bởi Harman Kardon</p>
                         <a href="#" className="btn1 btn-dark">Khám Phá</a>
         {/* <a href="#" className="btn2 btn-light">Mua Ngay</a> */}
         </div>

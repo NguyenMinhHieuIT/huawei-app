@@ -1,15 +1,17 @@
 /*Slider*/
-:root{
-    --clr:#afaeae;
+:root {
+    --clr: #afaeae;
 }
+
 .carousel-caption {
     position: relative;
     text-align: center;
     padding-right: 30%;
 
 }
+
 .carousel-inner {
-    
+
     background-color: var(--clr);
     border-radius: 50px;
 }
@@ -20,7 +22,7 @@
     margin-top: 10px;
     border-radius: 25px;
     background-color: black;
-    border: 0 ;
+    border: 0;
 
 }
 
@@ -43,7 +45,7 @@
     color: rgb(255, 255, 255);
     padding: 5px;
     margin-bottom: 12px;
-    border: 0 ;
+    border: 0;
 }
 
 .conten2 button:hover {
@@ -61,89 +63,164 @@
 .conten3 button:hover {
     background-color: rgba(0, 0, 0, 0.555);
     transition: 0.5s;
-    border: 0 ;
+    border: 0;
 }
 
 
-/*Card1*/
-.card{
+/*Card1-2*/
+.card {
     margin-left: 10px;
-   margin-top: 50px;
-   border-radius: 50px;
-   
-   
+    margin-top: 50px;
+    border-radius: 50px;
+
+
 }
 
-.row{
+.row {
     padding: 15px;
 }
 
-.col-md-6{
+.col-md-6 {
     background-color: var(--clr);
     border-radius: 50px;
-    
+
 }
 
-.card-body{
+.card-body {
     text-align: center;
     padding-top: 25%;
 }
 
 .bott {
     padding: 20px;
-    
-    
+
+
 }
 
-.bott .but1{
+.bott .but1 {
     margin-right: 40px;
     background-color: black;
-    color:white;
+    color: white;
     border-radius: 30px;
     border: 2px solid white;
 }
-.bott .but2{
+
+.bott .but2 {
     margin-left: 40px;
     border-radius: 30px;
-    
-    
+
+
 }
 
-.bott .but1:hover{
+.bott .but1:hover {
     background-color: var(--clr);
     color: black;
     transition: 0.5s;
     border-color: white;
 }
 
-.bott .but2:hover{
+.bott .but2:hover {
     background-color: var(--clr);
     transition: 0.5s;
 }
 
 .bott button .text1,
-.bott button .text2{
+.bott button .text2 {
     padding: 10px;
-    
+
 }
 
 /*TextConten*/
-.TextCont{
+.TextCont {
     margin-top: 50px;
     padding-left: 30px;
 }
 
-.TextCont .Tex1{
-    font-size: 80px; 
+.TextCont .Tex1 {
+    font-size: 60px;
 }
 
 .TextCont .Tex2 {
-font-size: 30px;
+    font-size: 45px;
 }
 
-/* Card3*/
+/*Card3*/
 
 .col-md-8 img {
-    -moz-border-radius:50%;
-    -webkit-border-radius:50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
 }
+
+/*CardList*/
+
+.container {
+    margin: 0;
+    padding-left: 50px;
+}
+
+.card-body .btn {
+    background-color: black;
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card-body .btn:hover {
+    background-color: var(--clr);
+    color: black;
+    transition: 0.5s;
+}
+
+.CardL{
+    display: flex;
+}
+
+.End {
+    padding-left: 10%;
+}
+
+.EndC {
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+.EndC .List1{
+
+   padding-right:10%;
+}
+.EndC .List2{
+
+    padding-left:10%;
+ }
+
+ .EndC2{
+    display: flex;
+    text-align: center;
+    width: 100%;
+ }
+
+ .EndC2 .List11{
+
+    padding-right:10%;
+ }
+ .EndC2 .List12{
+ 
+     padding-left:10%;
+  }
+
+.card .btn1,
+.card .btn2{
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.card .btn1:hover,
+.card .btn2:hover{
+    background-color: var(--clr);
+    transition: 0.5s;
+}
+
+
