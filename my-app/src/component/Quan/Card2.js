@@ -13,15 +13,10 @@ export default function Card2() {
                 <p className="card-text">Bộ Vi Xử Lý Intel® Core™ i5-1135G7 thế hệ thứ 11</p>
                 <div className='bott'>
                 <a href='#'>
-                  <button className='but1'><div className='text1'>
+                  <button className='but1 btn-dark'><div className='text1'>
                     Khám Phá
                   </div></button>
-                  </a>
-                  <a href='#'><button className='but2'><div className='text2'>
-                    Mua Ngay
-                  </div></button>
-                  </a>
-                  
+                  </a>                
                 </div>
               </div>
             </div>

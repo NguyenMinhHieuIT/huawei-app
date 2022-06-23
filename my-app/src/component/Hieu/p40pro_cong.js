@@ -9,11 +9,6 @@ function P40pro_cong() {
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="SỐ LƯỢNG" aria-label="Search" />
-            <button class="btn btn-outline-danger text-dark" type="submit">MUA</button>
-          </form>
         </div>
       </nav>
 

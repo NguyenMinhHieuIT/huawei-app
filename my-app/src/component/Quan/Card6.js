@@ -15,7 +15,7 @@ export default function Card6() {
                 {/* <p className="card-text">Bộ Vi Xử Lý Intel® Core™ i5-1135G7 thế hệ thứ 11</p> */}
                 <div className='bott'>
                 <a href='#'>
-                  <button className='but1'><div className='text1'>
+                  <button className='but1 btn-dark'><div className='text1'>
                   Xem tất cả thiết bị đeo
                   </div></button>
                   </a>

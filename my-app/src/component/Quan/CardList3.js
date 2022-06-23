@@ -32,7 +32,6 @@ export default function CardList3() {
 Đo Nhịp Tim Chính Xác
 Định Vị Chính Xác Chuẩn Marathon</p>
         <a href="#" className="btn1 btn-light">Khám Phá</a>
-        <a href="#" className="btn2 btn-light">Mua Ngay</a>
         </div>
         </div>
                     </div>
@@ -45,7 +44,6 @@ export default function CardList3() {
 Theo Dõi Sức Khoẻ Cả Ngày
 Thời Lượng Pin Lên Đến 5 Ngày</p>
                         <a href="#" className="btn1 btn-light">Khám Phá</a>
-        <a href="#" className="btn2 btn-light">Mua Ngay</a>
         </div>
         </div>
                     </div>
@@ -62,7 +60,7 @@ Thời Lượng Pin Lên Đến 5 Ngày</p>
 Thời lượng pin dài
 Màn hình AMOLED 1,64”</p>
                         <a href="#" className="btn1 btn-light">Khám Phá</a>
-        <a href="#" className="btn2 btn-light">Mua Ngay</a>       
+           
         </div>
         </div>
                     </div>
@@ -75,7 +73,7 @@ Màn hình AMOLED 1,64”</p>
 Màn Hình Tràn Viền
 Pin Liên Tục 2 Tuần</p>
                         <a href="#" className="btn1 btn-dark">Khám Phá</a>
-        {/* <a href="#" className="btn2 btn-light">Mua Ngay</a> */}
+        
         </div>
         </div>
                     </div>

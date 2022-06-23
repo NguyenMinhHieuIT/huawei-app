@@ -20,13 +20,12 @@ function Product() {
             <div className="row d-flex justify-content-around pb-5">
                 {product.map((course , index) => {
                     return(
-                        <div className="card col col-12 col-sm-4 pt-5 pb-5" style={{ width: '400px', borderRadius: '15px', textAlign: 'center' }} key={index}>
+                        <div className="card col col-12 col-sm-6 pt-5 pb-5" style={{ width: '400px', borderRadius: '15px', textAlign: 'center' }} key={index}>
                             <img src={course.imgUrl} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">{course.name} </h5>
                                 <p className="card-text">{course.mieuTa}</p>
                                 <Link to={course.lop} className="btn btn-dark">KHÁM PHÁ</Link>
-                                <a href="#" className="btn btn-dark ms-2">MUA NGAY</a>
                             </div>
                         </div>
                     )

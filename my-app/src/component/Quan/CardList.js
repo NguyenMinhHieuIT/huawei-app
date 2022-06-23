@@ -30,8 +30,7 @@ export default function CardList() {
                             <div className="card-body">
                         <h5 className="card-title">HUAWEI MateBook 14 2021</h5>
                         <p className="card-text">Bộ Vi Xử Lý Intel® Core™ i5-1135G7 thế hệ thứ 11</p>
-        <a href="#" className="btn1 btn-light">Khám Phá</a>
-        <a href="#" className="btn2 btn-light">Mua Ngay</a>
+        <a href="#" className="btn1 btn-light">Khám Phá</a>      
         </div>
         </div>
                     </div>
@@ -41,8 +40,7 @@ export default function CardList() {
                             <div className="card-body">
                         <h5 className="card-title">HUAWEI MateBook D 15 2021</h5>
                         <p className="card-text">Bộ xử lý Intel® Core™ thế hệ thứ 11</p>
-                        <a href="#" className="btn1 btn-light">Khám Phá</a>
-        <a href="#" className="btn2 btn-light">Mua Ngay</a>
+                        <a href="#" className="btn1 btn-light">Khám Phá</a> 
         </div>
         </div>
                     </div>
@@ -68,7 +66,7 @@ export default function CardList() {
                         <h5 className="card-title">HUAWEI MateBook D 14 2020</h5>
                         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         <a href="#" className="btn1 btn-dark">Khám Phá</a>
-        {/* <a href="#" className="btn2 btn-light">Mua Ngay</a> */}
+       
         </div>
         </div>
                     </div>

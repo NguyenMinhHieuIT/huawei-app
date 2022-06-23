@@ -33,7 +33,6 @@ HUAWEI M-Pencil</p>
 Cộng tác đa màn hình
 Màn hình 2K HUAWEI FullView</p>
         <a href="#" className="btn1 btn-light">Khám Phá</a>
-        <a href="#" className="btn2 btn-light">Mua Ngay</a>
         </div>
         </div>
                     </div>
@@ -46,7 +45,6 @@ Màn hình 2K HUAWEI FullView</p>
 Hiệu Suất Mượt Mà
 Chế Độ Bảo Vệ Mắt</p>
                         <a href="#" className="btn1 btn-light">Khám Phá</a>
-        <a href="#" className="btn2 btn-light">Mua Ngay</a>
         </div>
         </div>
                     </div>
@@ -63,7 +61,7 @@ Chế Độ Bảo Vệ Mắt</p>
 Dung Lượng Pin 7.250mAh
 RAM 4GB + ROM 128GB</p>
                         <a href="#" className="btn1 btn-light">Khám Phá</a>
-        <a href="#" className="btn2 btn-light">Mua Ngay</a>       
+            
         </div>
         </div>
                     </div>
@@ -76,7 +74,7 @@ RAM 4GB + ROM 128GB</p>
 Chế độ bảo vệ mắt
 Tinh chỉnh bởi Harman Kardon</p>
                         <a href="#" className="btn1 btn-dark">Khám Phá</a>
-        {/* <a href="#" className="btn2 btn-light">Mua Ngay</a> */}
+        
         </div>
         </div>
                     </div>

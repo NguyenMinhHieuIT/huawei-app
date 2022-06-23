@@ -23,3 +23,5 @@ export const more = [
     {name:'HUAWEI HUAWEI AppGallery' , mieuta:'Tận hưởng ứng dụng độc quyền, chương trình tại địa phương và các ưu đãi đặc biệt.' , imgUrl: require('./img/appgallery-web.png')},
     {name:'HUAWEI MateBook' , mieuta:'Tận hưởng sự kết hợp hoàn hảo giữa điện thoại HUAWEI và máy tính xách tay của bạn.',imgUrl: require('./img/matebook-web.png')},
 ]
+
+

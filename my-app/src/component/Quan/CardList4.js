@@ -34,7 +34,7 @@ Chống ồn chủ động thiết kế mở 2.0</p>
 Thiết Kế Gọn Nhẹ
 Âm Thanh Độ Phân Giải Cao</p>
         <a href="#" className="btn1 btn-light">Khám Phá</a>
-        <a href="#" className="btn2 btn-light">Mua Ngay</a>
+        
         </div>
         </div>
                     </div>
@@ -47,7 +47,7 @@ Thiết Kế Gọn Nhẹ
 Chế độ nhận dạng giọng nói và nhận dạng môi trường xung quanh
 Kết nối cùng lúc 2 thiết bị</p>
                         <a href="#" className="btn1 btn-light">Khám Phá</a>
-        <a href="#" className="btn2 btn-light">Mua Ngay</a>
+        
         </div>
         </div>
                     </div>
@@ -64,7 +64,7 @@ Kết nối cùng lúc 2 thiết bị</p>
 10 giờ phát nhạc liên tục
 Âm thanh chân thật</p>
                         <a href="#" className="btn1 btn-light">Khám Phá</a>
-        <a href="#" className="btn2 btn-light">Mua Ngay</a>       
+            
         </div>
         </div>
                     </div>
@@ -77,7 +77,7 @@ Kết nối cùng lúc 2 thiết bị</p>
 Thiết Kế Cấu Trúc Đối Xứng Push-Push
 Huawei Share</p>
                         <a href="#" className="btn1 btn-dark">Khám Phá</a>
-        {/* <a href="#" className="btn2 btn-light">Mua Ngay</a> */}
+        
         </div>
         </div>
                     </div>

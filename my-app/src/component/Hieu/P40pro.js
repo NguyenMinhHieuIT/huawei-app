@@ -3,6 +3,7 @@ import p40pr from '../../img/p40pr.jpg'
 function P40pro() {
   return (
     <>
+    
       <nav class="navbar navbar-expand-lg navbar-light bg-light " style={{ position: 'fixed', zIndex: '100', width: '100%' }}>
         <div class="container-fluid">
           <a class="navbar-brand" href="#">HUAWEI P40 Pro</a>
@@ -10,10 +11,6 @@ function P40pro() {
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="SỐ LƯỢNG" aria-label="Search" />
-            <button class="btn btn-outline-danger text-dark" type="submit">MUA</button>
-          </form>
         </div>
       </nav>
 
