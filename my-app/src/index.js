@@ -4,6 +4,7 @@ import './index.css';
 import App_hieu from './App_hieu';
 import reportWebVitals from './reportWebVitals';
 import App from './App';
+import P40pro from './component/Hieu/P40pro';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

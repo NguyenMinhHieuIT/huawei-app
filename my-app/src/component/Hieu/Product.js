@@ -2,6 +2,7 @@ import demo_phone from "../../img/product_demo.png";
 import p40_silver from "../../img/p40-pro-silver.png";
 import p40_silver_p from "../../img/p40-pro-plus-white.png";
 import {product , more} from '../../Data_phone_main'
+import { Link } from "react-router-dom";
 
 function Product() {
     return (
@@ -24,7 +25,7 @@ function Product() {
                             <div className="card-body">
                                 <h5 className="card-title">{course.name} </h5>
                                 <p className="card-text">{course.mieuTa}</p>
-                                <a href="#" className="btn btn-dark">KHÁM PHÁ</a>
+                                <Link to={course.lop} className="btn btn-dark">KHÁM PHÁ</Link>
                                 <a href="#" className="btn btn-dark ms-2">MUA NGAY</a>
                             </div>
                         </div>
